@@ -1,16 +1,11 @@
 # TodoMVC Performance Comparison
 
-Both Mercury and Elm are based on the [virtual-dom][] project which appears to
-be extremely fast.
+React.js and Backbone.js performance comparison. Based on [evancz/todomvc-perf-comparison](https://github.com/evancz/todomvc-perf-comparison)
 
-[virtual-dom]: https://github.com/Matt-Esch/virtual-dom
+[**Run it yourself**][runner] to see how it works on your machine or in other browsers!
 
-[**Run it yourself**][runner] to see how it works on your machine or in other
-browsers!
+Here are some sample results from running this in Chrome 35 with OSX 10.9.4 on a Macbook Air:
 
-Here are some sample results from running this in Chrome 35 with OSX 10.9.4 on
-a Macbook Air:
+[![Sample results for Chrome 40 + OSX 10.10.2 on a Macbook Pro](sampleResults.png)][runner]
 
-[![Sample results for Chrome 35 + OSX 10.9.4 on a Macbook Air](sampleResults.png)][runner]
-
-[runner]: http://evancz.github.io/todomvc-perf-comparison/
+[runner]: http://hokaccha.github.io/todomvc-perf-comparison/
